@@ -6,7 +6,7 @@
  * @version  1.0.0
  */
 
-
+require __DIR__ . '/vendor/autoload.php';
 
 $config = array(
     'host'     => '127.0.0.1',
