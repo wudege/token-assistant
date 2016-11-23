@@ -54,4 +54,17 @@ class LoginStatistics implements LoginStatisticsInterface
 
         return true;
     }
+
+    /**
+     *
+     * @author Davis <daviszeng@outlook.com>
+     *
+     * @param $userId
+     *
+     * @return string
+     */
+    public function lastVisited($userId)
+    {
+        return $this->redisClient->zscore(static::USER_STAT_SORTED_SET_NAMESPACE, $userId);
+    }
 }

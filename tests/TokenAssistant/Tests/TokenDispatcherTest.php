@@ -23,6 +23,17 @@ class TokenDispatcherTest extends BaseTestCase
 
     /**
      *
+     * @author Davis <daviszeng@outlook.com>
+     */
+    public function testReassign()
+    {
+        $token    = $this->dispatcher->assign(self::TEST_USER_ID);
+        $newToken = $this->dispatcher->reassign(self::TEST_USER_ID);
+        $this->assertNotEquals($token, $newToken);
+    }
+
+    /**
+     *
      * @author  Davis <daviszeng@outlook.com>
      * @depends testAssign
      */

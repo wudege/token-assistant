@@ -72,6 +72,21 @@ class TokenDispatcher implements TokenDispatcherInterface
     }
 
     /**
+     * Recycle the old token if exist, then assign new token.
+     * @author Davis <daviszeng@outlook.com>
+     *
+     * @param $userId
+     *
+     * @return string
+     */
+    public function reassign($userId)
+    {
+        $this->recycle($userId);
+
+        return $this->assign($userId);
+    }
+
+    /**
      * Get user id from token.
      * @author Davis <daviszeng@outlook.com>
      *

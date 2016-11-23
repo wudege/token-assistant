@@ -42,7 +42,7 @@ class LoginStatisticsTest extends BaseTestCase
     {
         $token = $this->dispatcher->assign(self::TEST_USER_ID);
         $this->assertNotEmpty($token);
-        $bool = $this->stat->refresh(self::TEST_USER_ID, time());
+        $bool = $this->stat->refresh(self::TEST_USER_ID, $this->time);
         $this->assertTrue($bool);
     }
 
@@ -57,6 +57,17 @@ class LoginStatisticsTest extends BaseTestCase
         $endTimestamp   = $this->time + 1;
         $num            = $this->stat->countUsers($startTimestamp, $endTimestamp);
         $this->assertEquals(1, (int)$num);
+    }
+
+    /**
+     *
+     * @author  Davis <daviszeng@outlook.com>
+     * @depends testRefresh
+     */
+    public function testLastVisited()
+    {
+        $time = $this->stat->lastVisited(self::TEST_USER_ID);
+        $this->assertEquals($this->time, $time);
     }
 
     /**
