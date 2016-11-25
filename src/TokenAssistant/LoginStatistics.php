@@ -43,6 +43,20 @@ class LoginStatistics implements LoginStatisticsInterface
      *
      * @author Davis <daviszeng@outlook.com>
      *
+     * @param $startTimestamp
+     * @param $endTimestamp
+     *
+     * @return array
+     */
+    public function listUsers($startTimestamp, $endTimestamp)
+    {
+        return $this->redisClient->zrevrangebyscore(static::USER_STAT_SORTED_SET_NAMESPACE, $endTimestamp, $startTimestamp);
+    }
+
+    /**
+     *
+     * @author Davis <daviszeng@outlook.com>
+     *
      * @param string $userId
      * @param int    $timestamp
      *

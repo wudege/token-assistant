@@ -64,6 +64,19 @@ class LoginStatisticsTest extends BaseTestCase
      * @author  Davis <daviszeng@outlook.com>
      * @depends testRefresh
      */
+    public function testListUsers()
+    {
+        $startTimestamp = $this->time - 1;
+        $endTimestamp   = $this->time + 1;
+        $userIds        = $this->stat->listUsers($startTimestamp, $endTimestamp);
+        $this->assertEquals(1, count($userIds));
+    }
+
+    /**
+     *
+     * @author  Davis <daviszeng@outlook.com>
+     * @depends testRefresh
+     */
     public function testLastVisited()
     {
         $time = $this->stat->lastVisited(self::TEST_USER_ID);
