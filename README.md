@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/wudege/token-assistant/badge.svg?branch=master)](https://coveralls.io/github/wudege/token-assistant?branch=master)
 [![Latest Stable Version](https://img.shields.io/packagist/v/wudege/token-assistant.svg)](https://packagist.org/packages/wudege/token-assistant)
 [![Total Downloads](https://img.shields.io/packagist/dt/wudege/token-assistant.svg)](https://packagist.org/packages/wudege/token-assistant)
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&style=flat-square)](https://twitter.com/heydaviszeng)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&style=flat-square)](https://twitter.com/wudege)
 
 ## INSTALL
 
