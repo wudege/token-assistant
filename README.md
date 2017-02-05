@@ -1,17 +1,17 @@
 # Token Management based Redis
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
-[![Build Status](https://travis-ci.org/DavisZeng/token-assistant.svg?branch=master)](https://travis-ci.org/DavisZeng/token-assistant)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/DavisZeng/token-assistant/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/DavisZeng/token-assistant/?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/DavisZeng/token-assistant/badge.svg?branch=master)](https://coveralls.io/github/DavisZeng/token-assistant?branch=master)
-[![Latest Stable Version](https://img.shields.io/packagist/v/DavisZeng/token-assistant.svg)](https://packagist.org/packages/DavisZeng/token-assistant)
-[![Total Downloads](https://img.shields.io/packagist/dt/DavisZeng/token-assistant.svg)](https://packagist.org/packages/DavisZeng/token-assistant)
+[![Build Status](https://travis-ci.org/wudege/token-assistant.svg?branch=master)](https://travis-ci.org/wudege/token-assistant)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/wudege/token-assistant/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/wudege/token-assistant/?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/wudege/token-assistant/badge.svg?branch=master)](https://coveralls.io/github/wudege/token-assistant?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/wudege/token-assistant.svg)](https://packagist.org/packages/wudege/token-assistant)
+[![Total Downloads](https://img.shields.io/packagist/dt/wudege/token-assistant.svg)](https://packagist.org/packages/wudege/token-assistant)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&style=flat-square)](https://twitter.com/heydaviszeng)
 
 ## INSTALL
 
-* Use the composer command or the composer.json file. That's the recommend way. And the SDK is here [`DavisZeng/token-assistant`][install-packagist]
+* Use the composer command or the composer.json file. That's the recommend way. And the SDK is here [`wudege/token-assistant`][install-packagist]
 ```bash
-$ composer require DavisZeng/token-assistant
+$ composer require wudege/token-assistant
 ```
 
 ## USAGE
@@ -41,7 +41,7 @@ $ ./vendor/bin/phpunit tests/TokenAssistant/Tests
 
 ## LICENSE
 
-The MIT License (MIT). [License File](https://github.com/DavisZeng/token-assistant/blob/master/LICENSE).
+The MIT License (MIT). [License File](https://github.com/wudege/token-assistant/blob/master/LICENSE).
 
 [packagist]: http://packagist.org
-[install-packagist]: https://packagist.org/packages/DavisZeng/token-assistant
+[install-packagist]: https://packagist.org/packages/wudege/token-assistant
