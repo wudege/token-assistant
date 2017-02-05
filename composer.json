@@ -1,5 +1,5 @@
 {
-    "name": "daviszeng/token-assistant",
+    "name": "wudege/token-assistant",
     "description": "Token Management based Redis",
     "type": "project",
     "require": {
@@ -13,8 +13,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Davis",
-            "email": "daviszeng@outlook.com"
+            "name": "wudege",
+            "email": "hi@wudege.me"
         }
     ],
     "minimum-stability": "stable",

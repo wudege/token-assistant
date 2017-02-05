@@ -3,7 +3,7 @@
 /**
  * @filename TokenDispatcherInterface.php
  * @touch    09/11/2016 11:21
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 
@@ -13,7 +13,7 @@ interface TokenDispatcherInterface
 {
     /**
      * Assign a new token or gain existed token.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      * @param bool   $forceRefresh
@@ -24,7 +24,7 @@ interface TokenDispatcherInterface
 
     /**
      * Recycle token if exist.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      *
@@ -34,7 +34,7 @@ interface TokenDispatcherInterface
 
     /**
      * Get user id from token.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $token
      *
@@ -44,7 +44,7 @@ interface TokenDispatcherInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      *

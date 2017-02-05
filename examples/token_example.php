@@ -2,7 +2,7 @@
 /**
  * @filename token_example.php
  * @touch    09/11/2016 21:39
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 

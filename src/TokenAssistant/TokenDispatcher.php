@@ -2,7 +2,7 @@
 /**
  * @filename TokenDispatcher.php
  * @touch    09/11/2016 11:29
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 
@@ -32,7 +32,7 @@ class TokenDispatcher implements TokenDispatcherInterface
 
     /**
      * Assign a new token or gain existed token.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      * @param bool   $forceRefresh
@@ -54,7 +54,7 @@ class TokenDispatcher implements TokenDispatcherInterface
 
     /**
      * Recycle token if exist.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      *
@@ -73,7 +73,7 @@ class TokenDispatcher implements TokenDispatcherInterface
 
     /**
      * Recycle the old token if exist, then assign new token.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param $userId
      *
@@ -88,7 +88,7 @@ class TokenDispatcher implements TokenDispatcherInterface
 
     /**
      * Get user id from token.
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $token
      *
@@ -101,7 +101,7 @@ class TokenDispatcher implements TokenDispatcherInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      *

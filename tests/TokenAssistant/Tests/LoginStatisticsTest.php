@@ -2,7 +2,7 @@
 /**
  * @filename LoginStatisticsTest.php
  * @touch    09/11/2016 21:12
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 
@@ -25,7 +25,7 @@ class LoginStatisticsTest extends BaseTestCase
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      */
     public function setUp()
     {
@@ -36,7 +36,7 @@ class LoginStatisticsTest extends BaseTestCase
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      */
     public function testRefresh()
     {
@@ -48,7 +48,7 @@ class LoginStatisticsTest extends BaseTestCase
 
     /**
      *
-     * @author  Davis <daviszeng@outlook.com>
+     * @author  wudege <hi@wudege.me>
      * @depends testRefresh
      */
     public function testCountUsers()
@@ -61,7 +61,7 @@ class LoginStatisticsTest extends BaseTestCase
 
     /**
      *
-     * @author  Davis <daviszeng@outlook.com>
+     * @author  wudege <hi@wudege.me>
      * @depends testRefresh
      */
     public function testListUsers()
@@ -74,7 +74,7 @@ class LoginStatisticsTest extends BaseTestCase
 
     /**
      *
-     * @author  Davis <daviszeng@outlook.com>
+     * @author  wudege <hi@wudege.me>
      * @depends testRefresh
      */
     public function testLastVisited()
@@ -85,7 +85,7 @@ class LoginStatisticsTest extends BaseTestCase
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      */
     public function tearDown()
     {

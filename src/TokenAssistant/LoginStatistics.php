@@ -2,7 +2,7 @@
 /**
  * @filename LoginStatistics.php
  * @touch    09/11/2016 16:28
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 
@@ -27,7 +27,7 @@ class LoginStatistics implements LoginStatisticsInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param int $startTimestamp
      * @param int $endTimestamp
@@ -41,7 +41,7 @@ class LoginStatistics implements LoginStatisticsInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param $startTimestamp
      * @param $endTimestamp
@@ -55,7 +55,7 @@ class LoginStatistics implements LoginStatisticsInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      * @param int    $timestamp
@@ -71,7 +71,7 @@ class LoginStatistics implements LoginStatisticsInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param $userId
      *

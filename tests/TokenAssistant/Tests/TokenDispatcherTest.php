@@ -3,7 +3,7 @@
 /**
  * @filename TokenDispatcherTest.php
  * @touch    09/11/2016 17:05
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 
@@ -13,7 +13,7 @@ class TokenDispatcherTest extends BaseTestCase
 {
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      */
     public function testAssign()
     {
@@ -23,7 +23,7 @@ class TokenDispatcherTest extends BaseTestCase
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      */
     public function testReassign()
     {
@@ -34,7 +34,7 @@ class TokenDispatcherTest extends BaseTestCase
 
     /**
      *
-     * @author  Davis <daviszeng@outlook.com>
+     * @author  wudege <hi@wudege.me>
      * @depends testAssign
      */
     public function testGetTokenByUserId()
@@ -45,7 +45,7 @@ class TokenDispatcherTest extends BaseTestCase
 
     /**
      *
-     * @author  Davis <daviszeng@outlook.com>
+     * @author  wudege <hi@wudege.me>
      * @depends testAssign
      */
     public function testGetUserIdByToken()
@@ -57,7 +57,7 @@ class TokenDispatcherTest extends BaseTestCase
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      */
     public function testRecycle()
     {

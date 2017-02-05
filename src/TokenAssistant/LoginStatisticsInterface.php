@@ -2,7 +2,7 @@
 /**
  * @filename LoginStatisticsInterface.php
  * @touch    09/11/2016 15:14
- * @author   Davis <daviszeng@outlook.com>
+ * @author   wudege <hi@wudege.me>
  * @version  1.0.0
  */
 
@@ -13,7 +13,7 @@ interface LoginStatisticsInterface
 {
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param int $startTimestamp
      * @param int $endTimestamp
@@ -24,7 +24,7 @@ interface LoginStatisticsInterface
 
     /**
      *
-     * @author Davis <daviszeng@outlook.com>
+     * @author wudege <hi@wudege.me>
      *
      * @param string $userId
      * @param int    $timestamp
